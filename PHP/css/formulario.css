@@ -1,0 +1,65 @@
+/* css/formulario.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.formulario label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
